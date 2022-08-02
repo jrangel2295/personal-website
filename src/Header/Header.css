@@ -1,8 +1,32 @@
-.name, .top-info{
-    cursor: pointer;
-    border: bold;
+.name,
+.top-info, .right-side {
+  cursor: pointer;
+  border: bold;
+  font-family: "freeMono";
+  font-weight: 800;
+  color: rgb(0,0,0,0.6);
+  background-color: rgb(112, 112, 112);
+  margin-top: 1em;
+  font-size: 20px;
+}
+
+.name{
     float: left;
-    font-family: 'freeMono';
-    font-weight: 800;
-    
+    font-size: 20px;
+    text-indent: 10px;
+}
+
+.top-info{
+    float: left;
+    color: black;
+}
+.container{
+    height: 4em;
+    background-color: rgb(112, 112, 112);
+
+}
+
+.right-side{
+    margin-top: 14px;
+    float: right;
 }
