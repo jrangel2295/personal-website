@@ -1,0 +1,8 @@
+.name, .top-info{
+    cursor: pointer;
+    border: bold;
+    float: left;
+    font-family: 'freeMono';
+    font-weight: 800;
+    
+}

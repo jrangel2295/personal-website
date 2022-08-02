@@ -1,6 +1,10 @@
+*{
+  background-color: #483D8B;
+}
 .App {
   text-align: center;
 }
+
 
 .loading-clock{
   margin: 6em auto;

@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from "react";
 import { CircleLoader, ClockLoader, PacmanLoader } from "react-spinners";
 import ClipLoader from "react-spinners/ClipLoader";
+import Header from "./Header/Header";
 import "./App.css";
 
 function App() {
@@ -11,7 +12,7 @@ function App() {
     setloading(true);
     setTimeout(() => {
       setloading(false);
-    }, 6000);
+    }, 3000);
   }, []);
 
   return (
@@ -24,7 +25,8 @@ function App() {
           
         />
        : 
-        <p>Page is loaded</p>
+       <Header />
+        
       }
     </div>
   );
