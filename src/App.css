@@ -1,9 +1,9 @@
 *{
-  background-color: #483D8B;
   margin: 0;
 }
-.App {
+body {
   text-align: center;
+  background-color: #483D8B;
 }
 
 
