@@ -5,7 +5,7 @@
   font-family: "freeMono";
   font-weight: 800;
   color: rgb(0,0,0,0.6);
-  background-color: rgb(112, 112, 112);
+  background-color: #617257;
   margin-top: 1em;
   font-size: 20px;
 }
@@ -22,7 +22,8 @@
 }
 .container{
     height: 4em;
-    background-color: rgb(112, 112, 112);
+    background-color: #617257;
+    border-bottom: ridge #6a7682;
 
 }
 
