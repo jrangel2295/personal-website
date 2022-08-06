@@ -27,4 +27,12 @@ export default [
     content:
       "Bringing You The Indoor - Outdoor  Music Experience. Live Music with Special Events every Friday & Saturday Night. Just Located by the south terminal of the airport. ",
   },
+  {
+    id: 2,
+    title: "new poroie",
+    img: "",
+    content:
+      "Bringing You The Indoor - Outdoor  Music Experience. Live Music with Special Events every Friday & Saturday Night. Just Located by the south terminal of the airport. ",
+  },
+  
 ];

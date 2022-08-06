@@ -8,22 +8,25 @@ import "./Content.css";
 
 const MediaCard = props => {
   return (
-    <ul className="list">
-      <Card sx={{ maxWidth: 305, height: 200 }}>
-        <CardActionArea>
-          <CardMedia className="card" />
-          <CardContent className="card-content">
-            <Typography gutterBottom variant="h5" component="div">
-              {props.title}
-            </Typography>
-            <Typography variant="body2" color="text.secondary">
-              {props.content}
-            </Typography>
-          </CardContent>
-        </CardActionArea>
-      </Card>
-    </ul>
+    
+    <div className="content-container">
+      <ul className="list">
+        <Card sx={{ maxWidth: 305, height: 200 }}>
+          <CardActionArea>
+            <CardMedia className="card" />
+            <CardContent className="card-content">
+              <Typography gutterBottom variant="h5" component="div">
+                {props.title}
+              </Typography>
+              <Typography variant="body2" color="text.secondary">
+                {props.content}
+              </Typography>
+            </CardContent>
+          </CardActionArea>
+        </Card>
+      </ul>
+    </div>
   );
 };
 
-export default  MediaCard
+export default MediaCard;

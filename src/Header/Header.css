@@ -2,7 +2,7 @@
 .top-info, .right-side {
   cursor: pointer;
   border: bold;
-  font-family: "freeMono";
+  font-family: 'EB Garamond', serif;
   font-weight: 800;
   color: rgb(0,0,0,0.6);
   background-color: #617257;

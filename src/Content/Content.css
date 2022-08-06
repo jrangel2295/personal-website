@@ -1,5 +1,10 @@
-
-
-.list{
-    display: inline-block;
+.content-container{
+    display: inline-block; 
 }
+.work-pic{
+    max-width: 20px;
+}
+
+/* .list{
+    display: inline-block;
+} */
