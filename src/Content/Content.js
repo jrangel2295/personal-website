@@ -9,7 +9,7 @@ import "./Content.css";
 const MediaCard = props => {
   return (
     
-    <div className="content-container">
+    <div className="content-container" id="Past-work">
       <ul className="list">
         <Card sx={{ maxWidth: 305, height: 200 }}>
           <CardActionArea>

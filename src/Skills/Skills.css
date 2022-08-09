@@ -1,0 +1,28 @@
+.skills-container {
+  border-radius: 15px 50px;
+  border: solid;
+  margin: 1em 12.5em;
+  place-content: center;
+  width: 50%;
+  font-size: 28px;
+  display: flex;
+  font-family: "EB Garamond", serif;
+  /* text-indent: 1em; */
+  background-color: #617257;
+  list-style: none;
+}
+.skills-container p {
+  margin-right: 4em;
+  /* text-indent: 2em; */
+}
+h2 {
+  font-size: 40px;
+  margin-top: 1em;
+  font-family: "EB Garamond", serif;
+}
+
+.boxes {
+  position: absolute;
+  left: 4.5em;
+  bottom: 1.3em;
+}
