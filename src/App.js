@@ -7,7 +7,7 @@ import "./App.css";
 import data from "./data";
 import About from "./About/About";
 import { Card } from "@mui/material";
-import Checkboxes from "./Skills/Skills";
+import Skills from "./Skills/Skills";
 
 function App() {
   const Cards = data.map(data => {
@@ -43,7 +43,7 @@ function App() {
           <Header />
           <About />
           {Cards}
-          <Checkboxes />
+          <Skills />
         </div>
       )}
     </div>

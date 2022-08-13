@@ -11,9 +11,8 @@ const MediaCard = props => {
     
     <div className="content-container" id="Past-work">
       <ul className="list">
-        <Card sx={{ maxWidth: 305, height: 200 }}>
+        <Card className="card" sx={{ width: 300, height: 200}}>
           <CardActionArea>
-            <CardMedia className="card" />
             <CardContent className="card-content">
               <Typography gutterBottom variant="h5" component="div">
                 {props.title}
